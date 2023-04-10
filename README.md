@@ -21,7 +21,7 @@
 | Low | Decimal | a |
 
 ### Link to Data
-
+https://www.nasdaq.com/market-activity/stocks/amc/historical 
 
 ### Notes about Data
 
