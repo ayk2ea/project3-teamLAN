@@ -13,12 +13,12 @@
 ### Data Dictionary
 | Column | Data Type | Description |
 | --- | --- | --- |
-| Date| Date | Date |
-| Close/Last | Decimal | a |
-| Volume | Integer | a |
-| Open | Decimal | a|
-| High | Decimal | The highest closing price of a stock over the past 52 weeks |
-| Low | Decimal | a |
+| Date | Character | Date corresponding to data |
+| Close/Last | Character | Adjust consolidated close stock price provided in USD |
+| Volume | Integer | Number of shares traded within the day |
+| Open | Character | Price of first stock transaction made for a date |
+| High | Character | Highest transaction value for the day |
+| Low | Character | Lowest transaction value for the day |
 
 ### Link to Data
 https://www.nasdaq.com/market-activity/stocks/amc/historical 
