@@ -32,7 +32,7 @@ https://www.nasdaq.com/market-activity/stocks/amc/historical
 | --- | --- | --- |
 | ARIMA Residuals | ![ARIMA Residuals](/FIGURES/ARIMAResiduals.jpeg) | Description |
 | Box Test | ![Box Test](/FIGURES/BoxTest.jpeg) | Description |
-| Forecasts Graph | ![Word Proportion by Neighborhood](/Figures/WordProportionbyNeighborhood.png) | Identifies whether there are any words that appear in higher proportion for a particular neighborhood |
+| Forecasts Graph | ![Forecasts Graph](/FIGURES/ForecastsGraph.jpeg) | Description |
 
 
 
