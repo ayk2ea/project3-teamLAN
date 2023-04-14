@@ -28,6 +28,13 @@ https://www.nasdaq.com/market-activity/stocks/amc/historical
 
 ## Figures 
 
+| Figure | Image | Description|
+| --- | --- | --- |
+| ARIMA Residuals | ![Neighborhood Word Cloud](/Figures/Neighborhood Wordclouds/CHLP Wordcloud.png) | These plots are representation of the top 200 words per neighborhood which contain sentiment value as determined by AFINN lexicon. Size is proportional to the frequency of the words in the reviews for the neighborhoods |
+| Box Test | ![Box Test](/FIGURES/BoxTest.jpeg) | Description |
+| Forecasts Graph | ![Word Proportion by Neighborhood](/Figures/WordProportionbyNeighborhood.png) | Identifies whether there are any words that appear in higher proportion for a particular neighborhood |
+
+
 
 
 ## References
