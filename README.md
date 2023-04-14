@@ -25,6 +25,7 @@ https://www.nasdaq.com/market-activity/stocks/amc/historical
 
 ### Notes about Data
 
+Use dataset [AMCdataFinal.csv](https://github.com/ayk2ea/project3-teamLAN/blob/main/DATA/AMCdataFinal.csv) for code.
 
 ## Figures 
 
