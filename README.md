@@ -31,7 +31,7 @@ Use dataset [AMCdataFinal.csv](https://github.com/ayk2ea/project3-teamLAN/blob/m
 
 | Figure | Image | Description|
 | --- | --- | --- |
-| ARIMA Residuals | ![ARIMA Residuals](/FIGURES/ARIMAResiduals.jpeg) | Description |
+| ARIMA Residuals | ![ARIMA Residuals](/FIGURES/ARIMAResiduals.jpeg) | Residual in a time series model are what is left over after fitting a model |
 | Box Test | ![Box Test](/FIGURES/BoxTest.jpeg) | Description |
 | Forecasts Graph | ![Forecasts Graph](/FIGURES/ForecastsGraph.jpeg) | Description |
 
