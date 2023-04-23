@@ -3,10 +3,12 @@
 
 ## SRC
 ### Installing/Building the Code
+In order to conduct a time series study of data on the past 10 years of AMC stock values, an Autoregressive Integrated Moving Average (ARIMA) model was used. This model uses time series data to forecast upcoming data points. There are two functions in the forecast package for making such a model. The auto.arima() function creates multiple variations of the model to create the best fit, while the arima() function allows for manual input of parameters. 
+For this project, we used the ARIMA code to manually choose p, d, and q and to incorporate seasonality. 
 
 
 ### Code Usage
-
+Using the code found in the SRC folder, run the file titled ______. Ensure that the following packages have been installed: fpp, forecast. This file will use the ARIMA function on the cleaned dataset, AMCdataFinal.csv (found in the Data folder) to create a projection of the stock prices for the next 12 months to identify the best time to sell AMC stocks. 
 
 
 ## Data
@@ -25,7 +27,7 @@ https://www.nasdaq.com/market-activity/stocks/amc/historical
 
 ### Notes about Data
 
-Use dataset [AMCdataFinal.csv](https://github.com/ayk2ea/project3-teamLAN/blob/main/DATA/AMCdataFinal.csv) for code.
+Use dataset [AMCdataFinal.csv](https://github.com/ayk2ea/project3-teamLAN/blob/main/DATA/AMCdataFinal.csv) for cleaned data.
 
 ## Figures 
 
