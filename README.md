@@ -8,7 +8,7 @@ For this project, we used the ARIMA code to manually choose p, d, and q and to i
 
 
 ### Code Usage
-Using the code found in the SRC folder, run the file titled ______. Ensure that the following packages have been installed: fpp, forecast. This file will use the ARIMA function on the cleaned dataset, AMCdataFinal.csv (found in the Data folder) to create a projection of the stock prices for the next 12 months to identify the best time to sell AMC stocks. 
+Using the code found in the SRC folder, run the file titled "AMC stock.Rmd". Ensure that the following packages have been installed: fpp, forecast. This file will use the ARIMA function on the cleaned dataset of monthly stock averages, monthPrices.csv (found in the Data folder) to create a projection of the stock prices for the next 12 months to identify the best time to sell AMC stocks. 
 
 
 ## Data
