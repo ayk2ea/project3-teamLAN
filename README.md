@@ -35,7 +35,7 @@ Use dataset [AMCdataFinal.csv](https://github.com/ayk2ea/project3-teamLAN/blob/m
 | --- | --- | --- |
 | ARIMA Residuals | ![ARIMA Residuals](/FIGURES/ARIMAResiduals.jpeg) | Residual plots displaying what's left over after fitting the time series model |
 | Box Test | ![Box Test](/FIGURES/BoxTest.jpeg) | Box-Ljung test applied to the residuals from the ARIMA model fit to determine for randomness |
-| Forecasts Graph | ![Forecasts Graph](/FIGURES/new arima prediction.jpg) | Plot displaying forecasts for AMC stock | 
+| Forecasts Graph | ![Forecasts Graph](/FIGURES/new arima prediction.JPG) | Plot displaying forecasts for AMC stock | 
 
 
 ## References
