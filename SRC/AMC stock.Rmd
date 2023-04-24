@@ -1,0 +1,59 @@
+---
+title: "Project 3"
+author: "Lauren Markwart"
+date: "2023-04-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(car)
+library(ggplot2)
+library(tidyverse)
+
+```
+```{r}
+setwd("C:/Users/Student/OneDrive/Documents/Fourth Year/DS 4002")
+
+stockdata<-read.csv("AMCdataFinal.csv")
+AMCdata<-stockdata[2:3]
+colnames(AMCdata)<-c("date","closing")
+AMCdata$date<-as.Date(AMCdata$date, "%m/%d/%Y")
+
+
+```
+
+Import and graph monthly stock data from Dec 2013-March 2023
+```{r}
+monthdata<-read.csv("monthPrices.csv")
+monthdata$month<-as.Date(monthdata$month, "%m/%d/%Y")
+ggplot(monthdata, aes(x=month, y=averagePrice))+geom_point()+geom_smooth(method=lm,color="black")+
+  labs(title="AMC Monthly Average Stock Price", x="Month", y= "AMC Stock Price")
+```
+
+Transforming stock data into a usable time-series dataset
+```{r}
+library(forecast)
+monthts<-ts(monthdata$averagePrice, start = c(2013, 12), end = c(2023,04), frequency = 12)
+is.ts(monthts)
+yearts
+```
+Decomposing the time series
+```{r }
+
+amcdecompose<-decompose(monthts)
+plot(amcdecompose)
+```
+
+Fitting and Forecasting using the Arima model
+```{r }
+fit1<- arima(monthts, order=c(2,1,3), seasonal = c(0,1,1))
+checkresiduals(fit1)
+
+fit1 %>% forecast(h=12)%>% autoplot()
+
+fit1 %>% forecast(h=12)
+```
